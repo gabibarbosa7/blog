@@ -65,7 +65,8 @@ body2 {
   width: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #5f9ea0;
+  background-size: contain;
+  background-color: white !important;
   background-image: url("../img/pessoas.png");
 }
 
@@ -78,10 +79,12 @@ body2 {
 }
 
 .cartaz {
-  height: 756px;
-  width: 540px;
+  height: 590px;
+  width: auto;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  background-color: #E7E7E7;
   background-image: url("../img/cartaz2.png");
 }
 
