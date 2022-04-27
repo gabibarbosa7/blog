@@ -71,6 +71,17 @@ body2 {
   background-image: url("../img/pessoas.png");
 }
 
+.escada {
+  height: 306px;
+  width: auto;
+  padding-right: 10px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #5f9ea0;
+  background-image: url("../img/escada.jpg");
+}
+
 .div-basic{
     background-color: #fcfcfc !important;
     border: solid 1px !important;
@@ -190,6 +201,10 @@ body2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px !important;
     color: #73797c;
+  }
+  
+  .roboto-font{
+    font-family: 'Roboto', sans-serif;
   }
 
  
