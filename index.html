@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psicopatologia I</title>
@@ -13,10 +14,7 @@
       crossorigin="anonymous"
       />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!--FavIcon-->
     <link rel="shortcut icon" href="assets/img/fav.png" />
     <!--Fontes-->
@@ -24,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     
+    <script src="jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
@@ -74,8 +73,6 @@
          
        
         <!--/layout 1-->
-  
-  
         <!--BLOCO2-->
         <div class="container-fluid row mt-5">
         
@@ -197,6 +194,7 @@
                 </div>
               </div>
               <div class="row justify-content-center">
+                
                 <div class="col-md-10 text-justify pb-3 mb-3">
                   <button class="accordion border-accordin mb-1">Orientação Autopsíquica</button>
                   <div class="panel mt-4 mb-4">
@@ -514,47 +512,7 @@
    
       </div>
 
-
+      <script src="script.js" type="text/javascript"></script>
     </body>
-    <script>
-// botao
-      $(document).ready(function() {
-        $('#subir').click(function(){
-          $('html, body').animate({scrollTop:0}, 'slow');
-          return false;
-        });
-      });
-
-// accordion
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-      
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
-
-//menu
-      function onHome() {
-        document.getElementById("home").style.display = 'none';
-        document.getElementById("sobre").style.display = 'block';
-        document.getElementById("menu-ref").style.display = 'none';
-        document.getElementById("menu-lupa").style.display = 'none';
-      }
-
-      function onSobre() {
-        document.getElementById("home").style.display = 'block';
-        document.getElementById("sobre").style.display = 'none';
-        document.getElementById("menu-ref").style.display = 'block';
-        document.getElementById("menu-ref").style.display = 'block';
-      }
-    </script>
   
   </html>

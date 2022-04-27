@@ -1,7 +1,7 @@
 #subir{
 	position:fixed;
 	bottom:40px;
-	right:10px;
+	right:0px;
 }
 
 .btn-topo {
@@ -165,6 +165,7 @@ body2 {
     display: none;
     background-color: white;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
   /* Accordion capacidades da orientacao */
 
