@@ -200,7 +200,7 @@ body {
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #fcfcfc !important;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
